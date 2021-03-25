@@ -1,0 +1,529 @@
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+DEBUG - mvp.MvpLogger - Start Time:  2021-03-24 06:30:00.913105 End Time:  2021-03-24 22:00:00.913105
+DEBUG - mvp.MvpLogger - Lights should be On
+INFO - mvp.CouchUtil - Saved: {'status': {'status': 'Complete', 'status_qualifier': 'Success'}, '_id': u'55318c313e31e277e1fdfb6bb3000919', 'participant': {'type': 'device', 'name': 'state'}, '_rev': u'1-230f030621900226e5d7026ab01d3b9c', 'location': {'field': 'd037d104-1e09-44e0-8c5b-ec6c83e432b1'}, 'activity_type': 'State_Change', 'start_date': {'timestamp': '2021-03-24T11:33:55'}, 'subject': {'attribute': {'units': 'Lights', 'name': 'State', 'value': 'On'}, 'name': 'Lights', 'location': 'Top'}}
+DEBUG - mvp.Light - Light turned ON
+DEBUG - mvp.MvpLogger - Start Time:  2021-03-24 06:30:00.630861 End Time:  2021-03-24 22:00:00.630861
+DEBUG - mvp.MvpLogger - Lights should be On
+DEBUG - mvp.Light - Light already ON - no change
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+DEBUG - mvp.MvpLogger - Start Time:  2021-03-24 06:30:00.308774 End Time:  2021-03-24 22:00:00.308774
+DEBUG - mvp.MvpLogger - Lights should be On
+INFO - mvp.CouchUtil - Saved: {'status': {'status': 'Complete', 'status_qualifier': 'Success'}, '_id': u'5d6286928368057d13a335d502008533', 'participant': {'type': 'device', 'name': 'state'}, '_rev': u'1-261c793fda22400b9d9bda27d0ec7ccb', 'location': {'field': 'd037d104-1e09-44e0-8c5b-ec6c83e432b1'}, 'activity_type': 'State_Change', 'start_date': {'timestamp': '2021-03-24T19:56:45'}, 'subject': {'attribute': {'units': 'Lights', 'name': 'State', 'value': 'On'}, 'name': 'Lights', 'location': 'Top'}}
+DEBUG - mvp.Light - Light turned ON
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+DEBUG - mvp.MvpLogger - Start Time:  2021-03-24 06:30:00.167715 End Time:  2021-03-24 22:00:00.167715
+DEBUG - mvp.MvpLogger - Lights should be On
+INFO - mvp.CouchUtil - Saved: {'status': {'status': 'Complete', 'status_qualifier': 'Success'}, '_id': u'ad2773513bc94943f5e505550d000efa', 'participant': {'type': 'device', 'name': 'state'}, '_rev': u'1-c61c824b10de5fa8a522189d4a34f5f2', 'location': {'field': 'd037d104-1e09-44e0-8c5b-ec6c83e432b1'}, 'activity_type': 'State_Change', 'start_date': {'timestamp': '2021-03-24T20:28:48'}, 'subject': {'attribute': {'units': 'Lights', 'name': 'State', 'value': 'On'}, 'name': 'Lights', 'location': 'Top'}}
+DEBUG - mvp.Light - Light turned ON
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+DEBUG - mvp.MvpLogger - Start Time:  2021-03-25 06:30:00.449766 End Time:  2021-03-25 22:00:00.449766
+DEBUG - mvp.MvpLogger - Lights should be On
+INFO - mvp.CouchUtil - Saved: {'status': {'status': 'Complete', 'status_qualifier': 'Success'}, '_id': u'b64823cd71354456015244adff0004b5', 'participant': {'type': 'device', 'name': 'state'}, '_rev': u'1-5686c949967eb6285461b95db83d2e38', 'location': {'field': 'd037d104-1e09-44e0-8c5b-ec6c83e432b1'}, 'activity_type': 'State_Change', 'start_date': {'timestamp': '2021-03-25T17:46:36'}, 'subject': {'attribute': {'units': 'Lights', 'name': 'State', 'value': 'On'}, 'name': 'Lights', 'location': 'Top'}}
+DEBUG - mvp.Light - Light turned ON
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+DEBUG - mvp.MvpLogger - Start Time:  2021-03-25 06:30:00.248428 End Time:  2021-03-25 22:00:00.248428
+DEBUG - mvp.MvpLogger - Lights should be On
+INFO - mvp.CouchUtil - Saved: {'status': {'status': 'Complete', 'status_qualifier': 'Success'}, '_id': u'134fd379e9a4a127aa6796ea45001c96', 'participant': {'type': 'device', 'name': 'state'}, '_rev': u'1-c4467efbb30b0b103bb96c1deec7045e', 'location': {'field': 'd037d104-1e09-44e0-8c5b-ec6c83e432b1'}, 'activity_type': 'State_Change', 'start_date': {'timestamp': '2021-03-25T18:30:01'}, 'subject': {'attribute': {'units': 'Lights', 'name': 'State', 'value': 'On'}, 'name': 'Lights', 'location': 'Top'}}
+DEBUG - mvp.Light - Light turned ON
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/pi/MVP/python/StartUp.py", line 7, in <module>
+    from Light import *
+  File "/home/pi/MVP/python/Light.py", line 9, in <module>
+    from CouchUtil import saveList
+  File "/home/pi/MVP/python/CouchUtil.py", line 33, in <module>
+    db = server[db_name]
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/client.py", line 145, in __getitem__
+    db.resource.head() # actually make a request to the database
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 557, in head
+    return self._request('HEAD', path, headers=headers, **params)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 592, in _request
+    credentials=self.credentials)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 295, in request
+    conn = self.connection_pool.get(url)
+  File "/usr/local/lib/python2.7/dist-packages/couchdb/http.py", line 515, in get
+    conn.connect()
+  File "/usr/lib/python2.7/httplib.py", line 831, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused

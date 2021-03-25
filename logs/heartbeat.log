@@ -1,0 +1,5 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   208  100   208    0     0  29714      0 --:--:-- --:--:-- --:--:-- 29714
+{"couchdb":"Welcome","version":"2.3.1","git_sha":"c298091a4","uuid":"8f37ec6f0dac5ce71f7825b43389f8b2","features":["pluggable-storage-engines","scheduler"],"vendor":{"name":"The Apache Software Foundation"}}
+INFO - mvp.CouchHeartbeat - localhost Couch is Up

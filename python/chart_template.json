@@ -1,0 +1,59 @@
+{
+  "_id": "38e58f875eda032ed0e9f3ce1d006fc9",
+  "_rev": "1-e5454f13d2ee7912ed0a8b5ff63f1396",
+  "status": {
+    "status": "Complete",
+    "comment": "Unknown format code 'f' for object of type 'str'",
+    "status_qualifier": "Failure"
+  },
+  "participant": {
+    "type": "device",
+    "name": "SI7021"
+  },
+  "location": {
+    "field": "d037d104-1e09-44e0-8c5b-ec6c83e432b1"
+  },
+  "activity_type": "Environment_Observation",
+  "start_date": {
+    "timestamp": "2021-03-21T16:20:17"
+  },
+  "subject": {
+    "attribute": {
+      "units": "Percent",
+      "name": "Humidity",
+      "value": ""
+    },
+    "name": "Air",
+    "location": "Top"
+  }
+}
+
+{
+  "_id": "38e58f875eda032ed0e9f3ce1d000b14",
+  "_rev": "1-e7509c98e64dfb1be88164c8246802a2",
+  "status": {
+    "status": "Complete",
+    "comment": "Unknown format code 'f' for object of type 'str'",
+    "status_qualifier": "Failure"
+  },
+  "participant": {
+    "type": "device",
+    "name": "SI7021"
+  },
+  "location": {
+    "field": "d037d104-1e09-44e0-8c5b-ec6c83e432b1"
+  },
+  "activity_type": "Environment_Observation",
+  "start_date": {
+    "timestamp": "2021-03-21T15:40:02"
+  },
+  "subject": {
+    "attribute": {
+      "units": "Farenheight",
+      "name": "Temperature",
+      "value": ""
+    },
+    "name": "Air",
+    "location": "Top"
+  }
+}
